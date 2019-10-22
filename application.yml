@@ -1,0 +1,14 @@
+spring: 
+    profiles: 
+        active: 
+        - dev 
+---
+spring: 
+    profiles:dev 
+    application: 
+        name:systemcloud-config-ice-dev 
+---
+spring: 
+    profiles:dev 
+    application: 
+        name:systemcloud-config-ice-test 
