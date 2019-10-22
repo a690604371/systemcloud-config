@@ -9,6 +9,6 @@ spring:
         name: systemcloud-config-ice-dev 
 ---
 spring: 
-    profiles: dev 
+    profiles: test 
     application: 
         name: systemcloud-config-ice-test 
